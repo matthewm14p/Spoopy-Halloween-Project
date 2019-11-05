@@ -1,0 +1,121 @@
+h1{
+  font-family: 'Creepster';
+  color: rgb(96, 2, 2) ;
+  font-size: 100px;
+  text-shadow:1px 1px 5px white;
+  margin-bottom: -5px;
+  
+}
+body{
+  background-image: url(https://i.postimg.cc/nzG1yn4J/spookybackgrund.jpg);
+
+}
+
+p{
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb( 48,50,58);
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Cutive Mono", monospaced;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+img{
+  float: center;
+  height: 20%;
+  width: 20%;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: black;
+  color: rgb(96,2,2);
+}
+table, th, td {
+  border: 1px solid grey;  
+  color: white;
+  border-collapse: collapse;
+  padding:4px;
+  padding-top:4px;
+  padding-bottom:4px;
+  font-weight: strong;
+}
+
+table{
+  border: blue;
+}
+
+.head {
+  font-family: 'Creepster';
+  font-size: 20px;
+  color: rgb(96, 2, 2);
+  text-shadow:0px 0px 5px white;
+}
+
+th{
+  font-family: "Frijole", cursive;
+  color: rgb(96, 2, 2);
+  text-shadow: 0px 0px 5px white;
+}
+
+td{
+  font-family: "Cutive Mono", monospaced;
+  text-shadow: 0px 0px 5px rgb(96, 2, 2)
+}
+.bordr{
+  border: 0px solid white;
+  width: 50%;
+  background-color: rgb(24,25,29);
+  margin-top: 0px;
+}
+
+.bordrr{
+  border: 0px solid white;
+  width: 95%;
+  background-color: rgb( 48,50,58);
+  height: 95%;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+a:hover{
+  color: rgb(96, 2, 2);
+}
