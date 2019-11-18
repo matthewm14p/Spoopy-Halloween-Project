@@ -1,40 +1,22 @@
-h1{
-  font-family: 'Creepster';
-  color: rgb(96, 2, 2) ;
-  font-size: 100px;
-  text-shadow:1px 1px 5px white;
-  margin-bottom: -5px;
-  
-}
 body{
   background-image: url(https://i.postimg.cc/nzG1yn4J/spookybackgrund.jpg);
-
-}
-
-p{
-  color: white;
+  margin: 0px;
 }
 
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-  background-color: black;
-  padding: 20px;
-  text-align: center;
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: rgb( 48,50,58);
-
 }
 
 /* Style the topnav links */
@@ -48,51 +30,23 @@ body {
   font-family: "Cutive Mono", monospaced;
   font-weight: bold;
   font-size: 20px;
-  
-}
-
-img{
-  float: center;
-  height: 20%;
-  width: 20%;
+  text-shadow: 0px 0px 5px rgb(96,2,2)
 }
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: black;
-  color: rgb(96,2,2);
-}
-table, th, td {
-  border: 1px solid grey;  
-  color: white;
-  border-collapse: collapse;
-  padding:4px;
-  padding-top:4px;
-  padding-bottom:4px;
-  font-weight: strong;
+  color: grey;
+  text-shadow: 0px 0px 5px rgb(96,2,2);
 }
 
-table{
-  border: blue;
-}
-
-.head {
+h1{
   font-family: 'Creepster';
-  font-size: 20px;
-  color: rgb(96, 2, 2);
-  text-shadow:0px 0px 5px white;
+  color: rgb(96, 2, 2) ;
+  font-size: 600%;
+  text-shadow:1px 1px 5px white;
+  margin-bottom: -5px;
 }
 
-th{
-  font-family: "Frijole", cursive;
-  color: rgb(96, 2, 2);
-  text-shadow: 0px 0px 5px white;
-}
-
-td{
-  font-family: "Cutive Mono", monospaced;
-  text-shadow: 0px 0px 5px rgb(96, 2, 2)
-}
 .bordr{
   border: 0px solid white;
   width: 50%;
@@ -108,7 +62,41 @@ td{
   margin-top: 15px;
   padding: 10px;
   border-radius: 10px;
- 
+}
+
+img{
+  float: center;
+  height: 20%;
+  width: 20%;
+}
+
+.head {
+  font-family: 'Creepster';
+  color: rgb(96, 2, 2);
+  text-shadow:0px 0px 5px white;
+  font-size: 20px;
+}
+
+table, th, td {
+  border: 1px solid grey;  
+  color: white;
+  border-collapse: collapse;
+  padding:4px;
+  padding-top:4px;
+  padding-bottom:4px;
+  font-weight: strong;
+}
+
+th{
+  font-family: "Frijole", cursive;
+  color: rgb(96, 2, 2);
+  text-shadow: 0px 0px 5px white;
+  text-align: center;
+}
+
+td{
+  font-family: "Cutive Mono", monospaced;
+  text-shadow: 0px 0px 5px rgb(96, 2, 2);
 }
 
 a{
@@ -118,4 +106,20 @@ a{
 
 a:hover{
   color: rgb(96, 2, 2);
+}
+
+/* Map Styles */
+iframe{
+  width: 95%; 
+  height: 350px;
+  frameborder: 0; 
+  border: 10px solid rgb(48, 50, 58); 
+  border-radius: 10px; 
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    h1{
+        font-size:400%;
+    }
 }
